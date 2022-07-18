@@ -1,7 +1,6 @@
 # Web
 Here you will find all web projects
 <hr>
-<br>
 1-Simple Index
 <hr>
 <img align="left" alt="Coding" width="310" height="150" src="https://i.ibb.co/djTn2ch/1.png">
