@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor register</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-heartbeat"></i> Artes House. </a>
+
+    <nav class="navbar">
+        <a href="index.html">home</a>
+    </nav>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+
+</header>
+
+<!-- booking section starts   -->
+
+    <section class="book" id="book">
+        <br> <br> <br> <br> 
+        <h1 class="heading"> <span>Log</span> In </h1>    
+
+        <div class="row">
+
+        <div class="image">
+            <img src="image/book-img.svg" alt="">
+        </div>
+
+        <form action="function/register.php" method="post">
+            <input type="text" placeholder=" name" class="box" name="username">
+            <input type="password" placeholder="password" class="box" name="password">
+            <input type="password" placeholder="Confirm the password" class="box">
+            <input type="email" placeholder=" email" class="box" name="email">
+            <input type="text" placeholder=" Addres" class="box" name="adress">
+            <input type="text" placeholder="phone" class="box" name="phone">
+            <input type="date" placeholder=" date" class="box">
+            <select class="box">
+                <option value="" >choosd the Category</option>
+                <option value="">doctor</option>
+                <option value="">nuerse</option>
+                <option value="">admin</option>
+                <option value="">patient</option>
+            </select>
+            
+            <nav class="navbar">
+            <button class="btn">submit</button>
+           
+        </form>
+
+    </div>
+    </section>
+
+<!-- booking section ends -->
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
